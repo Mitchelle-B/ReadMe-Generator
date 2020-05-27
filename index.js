@@ -45,7 +45,7 @@ inquirer
         console.info('Answer:', answers);
 
         /* File Writing */
-        var file = fs.createWriteStream('ReadME.md');
+        var file = fs.createWriteStream('ReadMEgenerator.md');
         file.on('error',
             function(err) {
                 /* error handling */
